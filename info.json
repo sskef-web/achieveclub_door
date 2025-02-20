@@ -3,6 +3,7 @@
     "achieve_client": {
       "target_version": 1,
       "status": "UNPAID",
+      "should_check_after_paid": true
     },
     "paid": {
       "target_version": 1,
