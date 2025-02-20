@@ -2,8 +2,7 @@
   "apps": {
     "achieve_client": {
       "target_version": 1,
-      "status": "PAID",
-      "expire_date": "2025-02-19"
+      "status": "UNPAID",
     },
     "check_after_paid": {
       "target_version": 1,
