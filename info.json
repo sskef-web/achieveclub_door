@@ -2,7 +2,7 @@
   "apps": {
     "achieve_client": {
       "target_version": 1,
-      "status": "UNPAID",
+      "status": "PAID",
       "should_check_after_paid": true
     },
     "paid": {
