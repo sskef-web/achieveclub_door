@@ -3,7 +3,7 @@
     "achieve_client": {
       "target_version": 1,
       "status": "PAID",
-      "expire_date": "2025-02-20"
+      "expire_date": "2025-02-19"
     },
     "check_after_paid": {
       "target_version": 1,
