@@ -1,56 +1,10 @@
 {
   "apps": {
-    "paid": {
-      "target_version": 1,
-      "status": "PAID"
-    },
-    "check_after_paid": {
+    "achieve_client": {
       "target_version": 1,
       "status": "PAID",
-      "should_check_after_paid": true
-    },
-    "un_paid": {
-      "target_version": 1,
-      "status": "UNPAID"
-    },
-    "limited_launches": {
-      "target_version": 1,
-      "status": "ALLOW_LIMITED_LAUNCHES",
-      "max_launch": 10
-    },
-    "limited_launches_negative_max_launch": {
-      "target_version": 1,
-      "status": "ALLOW_LIMITED_LAUNCHES",
-      "max_launch": -1
-    },
-    "limited_launches_no_strict_max_launch": {
-      "target_version": 1,
-      "status": "ALLOW_LIMITED_LAUNCHES",
-      "max_launch": -1,
-      "strict_max_launch": false
-    },
-    "trial": {
-      "target_version": 1,
-      "status": "ON_TRIAL",
       "expire_date": "2025-02-20"
     },
-    "trial_force_check": {
-      "target_version": 1,
-      "status": "ON_TRIAL",
-      "expire_date": "2025-02-20",
-      "check_during_trial": true
-    },
-    "trial_expire": {
-      "target_version": 1,
-      "status": "ON_TRIAL",
-      "expire_date": "2024-02-28"
-    },
-    "trial_warning": {
-      "target_version": 1,
-      "status": "ON_TRIAL",
-      "expire_date": "2025-02-20",
-      "warning_date": "2025-02-20"
-    }
   }
 }
 
